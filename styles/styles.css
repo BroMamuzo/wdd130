@@ -13,10 +13,17 @@ header {
     padding: 1rem;
 }
 
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    padding: 0.5rem;
+    display: block;
 }
 
 /* Main content */
@@ -26,10 +33,18 @@ main {
     padding: 1rem;
 }
 
+/* Main heading */
+h1 {
+    color: #333;
+}
+
 /* Profile image */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #333;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
     float: right;
     margin-left: 1rem;
 }
