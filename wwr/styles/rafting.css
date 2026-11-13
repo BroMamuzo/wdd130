@@ -1,8 +1,7 @@
-/* Wild Flow Rafting - W03 About Us Page */
+﻿/* Wild Flow Rafting - W03 About Us Page */
 
 :root {
   --primary-color: #005f73;
-  --secondary-color: #0a9396;
   --accent-color: #ee9b00;
   --heading-font: Georgia, serif;
   --body-font: Arial, sans-serif;
@@ -136,4 +135,5 @@ footer p {
   width: 32px;
   height: 32px;
 }
+
 
