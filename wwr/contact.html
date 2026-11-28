@@ -1,141 +1,67 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Wild Flow Rafting for reservation questions, adventure inquiries, and assistance with our rafting services.">
-    <meta name="author" content="Ewomazino Josiah">
-    <title>Contact Us | Wild Flow Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Wild Flow Rafting to ask questions or plan your next river adventure.">
+<meta name="author" content="Ewomazino Josiah">
+<title>Contact Us | Wild Flow Rafting</title>
+<link rel="stylesheet" href="styles/rafting.css">
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.jpg" alt="Wild Flow Rafting logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
-
-    <main class="contact-page">
-    <h1>Contact Wild Flow Rafting</h1>
-
-    <section class="contact-info">
-        <h2>Get in Touch</h2>
-        <div class="contact-details">
-            <div class="company-details">
-                <h3>Wild Flow Rafting</h3>
-                <p><strong>Address:</strong> 123 River Road, Boise, ID 83702</p>
-                <p><strong>Phone:</strong> <a href="tel:+12085550147">(208) 555-0147</a></p>
-                <p><strong>Email:</strong> <a href="mailto:info@wildflowrafting.com">info@wildflowrafting.com</a></p>
-                <p>Contact our friendly team for rafting reservations, questions, and information about our adventures.</p>
-            </div>
-
-            <div class="company-map">
-                <iframe
-                    src="https://maps.google.com/maps?q=Boise%2C%20Idaho&t=&z=12&ie=UTF8&iwloc=&output=embed"
-                    title="Map showing Boise, Idaho"
-                    width="600"
-                    height="250"
-                    loading="lazy"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </section>
-
-    <section class="employee-section">
-        <h2>Meet Our Team</h2>
-        <div class="employee-gallery">
-            <figure>
-                <img src="images/employee1-contact.jpg" alt="Wild Flow Rafting team member">
-                <figcaption>James Wilson - Lead Rafting Guide</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/employee2-contact.jpg" alt="Wild Flow Rafting team member">
-                <figcaption>Sarah Johnson - Reservations Manager</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/employee3-contact.jpg" alt="Wild Flow Rafting team member">
-                <figcaption>Michael Brown - Safety Coordinator</figcaption>
-            </figure>
-        </div>
-    </section>
-
-    <section class="contact-form-section">
-        <h2>Send Us a Message</h2>
-        <p>Have a question or suggestion? Complete the form below and our team will be happy to help.</p>
-
-        <form class="contact-form" action="#" method="get">
-            <div class="form-field">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
-            </div>
-
-            <div class="form-field">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-            </div>
-
-            <fieldset>
-                <legend>What is the purpose of your message?</legend>
-
-                <label for="general">
-                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                    General Inquiry
-                </label>
-
-                <label for="reservation">
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                    Reservation Question
-                </label>
-
-                <label for="suggestion">
-                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                    Website Suggestion
-                </label>
-            </fieldset>
-
-            <div class="form-field">
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
-            </div>
-
-            <div class="newsletter-option">
-                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-            </div>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+<header>
+<img src="images/logo.jpg" alt="Wild Flow Rafting logo">
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="trips.html">Trips</a>
+<a href="contact.html">Contact Us</a>
+</nav>
+</header>
+<main class="contact-page">
+<section class="hero">
+<img src="images/hero-1200.jpg" alt="Rafting team enjoying the river">
+<h1>Contact Wild Flow Rafting</h1>
+</section>
+<section class="contact-intro">
+<h2>Let's Plan Your Adventure!</h2>
+<p>Have questions about our trips, safety, or group adventures? We would love to hear from you. Send us a message and let us help you plan an unforgettable experience on the river.</p>
+</section>
+<section class="contact-details">
+<h2>Get in Touch</h2>
+<p><strong>Wild Flow Rafting</strong></p>
+<p>Trip information, booking questions, family adventures, and group inquiries are welcome.</p>
+<p>Use the contact form below to tell us what adventure you have in mind.</p>
+</section>
+<section class="contact-form-section">
+<h2>Send Us a Message</h2>
+<form class="contact-form" action="#" method="get">
+<label for="fullname">Full Name</label>
+<input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+<label for="topic">Message Topic</label>
+<select id="topic" name="topic" required>
+<option value="" selected disabled>Select a topic</option>
+<option value="trip">Trip information</option>
+<option value="booking">Booking inquiry</option>
+<option value="group">Group or family trip</option>
+<option value="other">Other</option>
+</select>
+<label for="message">Your Message</label>
+<textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<p class="form-note">This demonstration form is a front-end example and does not send messages to a server.</p>
+</section>
 </main>
-
-    <footer>
-        <p>&copy; 2026 Wild Flow Rafting | Ewomazino Josiah</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com/" aria-label="Visit us on Facebook">
-                <img src="images/facebook.png" alt="">
-            </a>
-            <a href="https://instagram.com/" aria-label="Visit us on Instagram">
-                <img src="images/instagram.png" alt="">
-            </a>
-            <a href="https://twitter.com/" aria-label="Visit us on Twitter">
-                <img src="images/twitter.png" alt="">
-            </a>
-        </nav>
-    </footer>
+<footer>
+<p>&copy; 2026 Wild Flow Rafting | Ewomazino Josiah</p>
+<div class="socialmedia">
+<a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+<a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+<a href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
+</div>
+</footer>
 </body>
-
 </html>
-
-
-
-
